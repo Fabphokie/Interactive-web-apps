@@ -35,10 +35,10 @@ else if (location === 'NAM') {
 // fixed the if statements and added missing brackets
 if (shoes + batteries + pens + shirts > 1000) {
 	if (location === 'NAM' && customers < 2) {
-        shipping = 0 || calcShipping();            
+        shipping = 0 ;            
 
     } else if (location === 'RSA') {
-		    shipping = 0 || calcShipping();
+		    shipping = 0 ;
 	}
 }
 
