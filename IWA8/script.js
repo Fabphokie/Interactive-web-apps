@@ -26,9 +26,9 @@ const leo = {
 }
 
 const sarah = {
-	name : sarahName + sarahSurname,       //corrected the casing of sarah
+	name : sarahName + sarahSurname,                             //corrected the casing of sarah
 	age : 62,
-	accessId: `6b279ae5-5657-4240-80e9-23f6b635f7a8`,           //Changed the `access id` property to `accessId` to match the naming convention used in Javascript
+	accessId: `6b279ae5-5657-4240-80e9-23f6b635f7a8`,             //Changed the `access id` property to `accessId` to match the naming convention used in Javascript
 	age : 24,         
 	balance: sarahBalance,
 	address: {
@@ -37,6 +37,6 @@ const sarah = {
 		postalCode: sarahPostal,
 	}
 }
-console.log(leo, leo['address']['postal-code'])   // added the hyphens
-console.log(sarah, sarah['address']['postal-code'])
+console.log(leo, leo.address.postalCode)                      // added the hyphens
+console.log(sarah, sarah['address']['postalCode'])
  
