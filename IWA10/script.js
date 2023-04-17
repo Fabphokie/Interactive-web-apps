@@ -51,7 +51,6 @@ const holidays = {
 const christmas = 6
 const futureId = 9
 
-
 // Log the holiday name for the given ID or a message indicating the ID has not been created
 console.log(holidays[futureId] ? holidays[futureId].name : `ID ${futureId} not created yet`);
 // Make a copy of Christmas
