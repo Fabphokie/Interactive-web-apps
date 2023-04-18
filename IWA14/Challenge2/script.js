@@ -8,12 +8,11 @@ function multiply(a, b) {
 }
   
 function internal() {
-    const added = this.add(this.internal.a, this.internal.b);
-    const multiplied = this.multiply(this.internal.a, this.internal.b);
-    console.log(`${multiplied * added}`);
+     add = this.add(this.internal.a, this.internal.b);
+     multiply = this.multiply(add, this.internal.c);
+    console.log(multiply);
     
 }
-  
 
 
 // Not allowed to change below this
