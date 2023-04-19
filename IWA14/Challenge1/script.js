@@ -2,13 +2,13 @@ firstName = 'John';
 age = 35;
 hobby = 'Coding';
 
-const logTwice = (parameter) => {
-  console.log(parameter)
-  console.log(parameter)
+const logTwice = (parameter) => {    //added Parameter inside the brackets
+  console.log(parameter)                //Added console.log
+  console.log(parameter) 
 }
 
-function sayHobby  () {
+function sayHobby  () {      //added say
   logTwice(`Hello, ${name} (${age}). I love ${hobby}!`)
 }
 
-sayHobby();
+sayHobby();   // added say
